@@ -1,0 +1,106 @@
+header{
+    background-image:linear-gradient(to bottom right, linen, rgb(128, 178, 240), rgb(122, 141, 233), rgb(105, 105, 105)) ;
+
+    height: 120px;
+  
+}
+.enligne{
+    display: flow-root;
+
+}
+#hk{
+    justify-content: center;
+    align-items:center ;
+    font-size: large;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-weight: bold;
+       color: rgba(0, 0, 0, 0.71);
+    
+       text-align: center;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /
+       
+}
+body{
+    background-color: rgb(248, 248, 248);
+   }
+     #title{
+      
+       font-family: cursive;
+       font-style: italic;
+       color: rgb(27, 27, 97);
+     }
+   
+     .container {
+        text-align: center;
+        position: relative;
+        right: -450px;
+        font-family: cursive;
+        color: rgb(44, 42, 165);
+        float: left;
+        width: 40%;
+        height: 55vh;
+        margin: 50px auto;
+        background-color: rgb(240, 240, 255);
+        padding: 20px;
+        border-radius: 100px 0px 0px 100px;
+      
+      }
+     
+     label{
+       display: block;
+   
+     }
+     .input{
+       border-radius: 7px;
+       width:6cm;
+       height: 0.6cm;
+       background-color:transparent;
+       margin-bottom: 30px;
+     }
+     .text-area-large {
+        border-radius: 7px;
+        width:6cm;
+        height: 1.5cm;
+        background-color:transparent;
+        margin-bottom: 30px;
+
+       
+    }
+    
+    #submit {
+        padding: 12px 24px; /* Augmentation de l'espacement intérieur */
+        font-size: 16px; /* Taille de la police */
+        background-color: #004080; /* Bleu foncé */
+        border: none; /* Pas de bordure */
+        color: #fff; /* Texte blanc */
+        border-radius: 5px; /* Coins arrondis */
+        cursor: pointer; /* Curseur au survol */
+        transition: background-color 0.3s ease; /* Transition fluide pour le changement de couleur de fond */
+    }
+    
+    #submit:hover {
+        background-color: #001f4d; /* Modification de la couleur de fond au survol */
+    }
+    footer{
+        background-image:linear-gradient(to bottom right, linen, rgb(128, 178, 240), rgb(122, 141, 233), rgb(105, 105, 105));
+        margin: 5px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        justify-content: space-around;
+    }
+   
+
+.hdown{
+    text-align: center;
+    height:20%;
+    
+}
+.hdown a{
+    text-decoration: none;
+    color:whitesmoke;
+    cursor: pointer;
+}

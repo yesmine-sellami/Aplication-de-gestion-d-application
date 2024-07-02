@@ -1,0 +1,59 @@
+@model IEnumerable<sopalapp.Models.Visitor>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/styles3.css">
+    <title>Historique des Soumissions</title>
+</head>
+<body>
+    <header>
+        <div class="enligne">
+            <img src="https://www.sopal.com/assets/images/logo.png" alt="Sopal">
+        </div>
+    </header>
+        <h1> Visite en cours </h1>
+        <h2 id="title">@ViewData["Title"]</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>CIN</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Société</th>
+                    <th>But de la visite</th>
+                    <th>Date et heure d'entrée</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var visitor in Model)
+                {
+                    <tr>
+                        <td>@visitor.CIN</td>
+                        <td>@visitor.Nom</td>
+                        <td>@visitor.Prénom</td>
+                        <td>@visitor.Société</td>
+                        <td>@visitor.ButVisite</td>
+                        <td>@visitor.EntryDateTime</td>
+                        <td> <button class="closeButton" data-cin="@visitor.CIN" type="button">Merci d'avoir visité SOPAL</button> </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    
+        <div id="responseControl"></div>
+        <p id="doorStatus"></p>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/history.js"></script>
+    <footer>
+        <div class="hdown"><a href="/Form/Bienvenue">PAGE D'ACCUEIL</a></div>
+        <div class="hdown"><a href="/Form/History">VISITE EN COURS</a></div>
+    </footer>
+</body>
+</html>

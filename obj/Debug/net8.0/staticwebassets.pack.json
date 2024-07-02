@@ -1,0 +1,285 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\css\\ancien.css",
+      "PackagePath": "staticwebassets\\css\\ancien.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\css\\bienvenue.css",
+      "PackagePath": "staticwebassets\\css\\bienvenue.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\css\\search.css",
+      "PackagePath": "staticwebassets\\css\\search.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\css\\sopal.css",
+      "PackagePath": "staticwebassets\\css\\sopal.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\css\\styles3.css",
+      "PackagePath": "staticwebassets\\css\\styles3.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\js\\history.js",
+      "PackagePath": "staticwebassets\\js\\history.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\js\\script222.js",
+      "PackagePath": "staticwebassets\\js\\script222.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\js\\script3.js",
+      "PackagePath": "staticwebassets\\js\\script3.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Lenovo\\Desktop\\app stage\\sopal\\sopalapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.sopalapp.props",
+      "PackagePath": "build\\sopalapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.sopalapp.props",
+      "PackagePath": "buildMultiTargeting\\sopalapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.sopalapp.props",
+      "PackagePath": "buildTransitive\\sopalapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.sopalapp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

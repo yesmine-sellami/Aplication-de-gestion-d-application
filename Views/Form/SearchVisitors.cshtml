@@ -1,0 +1,94 @@
+@model List<sopalapp.Models.Visitor>
+
+@{
+    ViewData["Title"] = "Recherche de visiteurs par date";
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/search.css">
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <header>
+        <div class="enligne">
+            <img src="https://www.sopal.com/assets/images/logo.png" alt="Sopal">
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>@ViewData["Title"]</h2>
+        <form id="searchForm">
+            <label for="searchDate">Date de recherche :</label><br>
+            <input type="date" id="searchDate" name="searchDate" required><br><br>
+            <button type="button" id="rechercher">Rechercher</button>
+        </form>
+ </div>
+ <br>
+        <div class="search" id="searchResults">
+            @if (Model != null && Model.Count > 0)
+            {
+                    
+                <table  class="table-container">
+                    <thead>
+                        <tr>
+                            <th>CIN</th>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Société</th>
+                            <th>But de visite</th>
+                            <th>Date d'entrée</th>
+                            <th>Date de sortie</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var visitor in Model)
+                        {
+                            <tr>
+                                <td>@(visitor.CIN ?? "")</td>
+                                <td>@(visitor.Nom ?? "")</td>
+                                <td>@(visitor.Prénom ?? "")</td>
+                                <td>@(visitor.Société ?? "")</td>
+                                <td>@(visitor.ButVisite ?? "")</td>
+                                <td>@(visitor.EntryDateTime?.ToString("dd/MM/yyyy HH:mm") ?? "")</td>
+                                <td>@(visitor.ExitDateTime?.ToString("dd/MM/yyyy HH:mm") ?? "")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+
+        </div>
+   
+
+    <footer>
+        <div class="hdown"><a href="/Form/Bienvenue">PAGE D'ACCEUIL</a></div>
+        <div class="hdown"><a href="/Form/History">VISITE EN COURS</a></div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#rechercher').on('click', function () {
+                var searchDate = $('#searchDate').val();
+
+                $.ajax({
+                    url: '/Form/SearchVisitors',
+                    type: 'POST',
+                    data: { searchDate: searchDate },
+                    success: function (response) {
+                        $('#searchResults').html(response);
+                    },
+                    error: function (error) {
+                        console.error('Erreur lors de la recherche de visiteurs:', error);
+                        $('#searchResults').html('<p>Une erreur est survenue lors de la recherche.</p>');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

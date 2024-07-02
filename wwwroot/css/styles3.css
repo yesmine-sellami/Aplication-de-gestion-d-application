@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+        font-family: cursive;
+        font-style: italic;
+        color: rgb(27, 27, 97);
+      }
+
+      table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: auto;
+        background-color: #ffffff; /* Couleur de fond du tableau */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour effet de profondeur */
+        border-radius: 10px; /* Effet arrondi sur les bordures du tableau */
+    overflow: hidden;
+    }
+    
+    table, th, td {
+        border: 1px solid #07417c; /* Couleur de la bordure bleue */
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #07417c; /* Couleur de fond des en-têtes */
+        color: #ffffff; /* Couleur du texte des en-têtes */
+    }
+    
+    tr:nth-child(even) {
+        background-color: #e6f7ff; /* Couleur de fond des lignes paires */
+    }
+    
+    tr:nth-child(odd) {
+        background-color: #ffffff; /* Couleur de fond des lignes impaires */
+    }
+    
+    tr:hover {
+        background-color: #add8e6; /* Couleur de fond lors du survol */
+        cursor: pointer;
+    }
+header{
+
+    background-image:linear-gradient(to bottom right, linen, rgb(128, 178, 240), rgb(122, 141, 233), rgb(105, 105, 105)) ;
+
+    height: 110px;
+  
+}
+footer{
+    background-image:linear-gradient(to bottom right, linen, rgb(128, 178, 240), rgb(122, 141, 233), rgb(105, 105, 105));
+    margin: 5px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    
+}
+.hdown{
+text-align: center;
+height:20%;
+
+}
+.hdown a{
+text-decoration: none;
+color:whitesmoke;
+cursor: pointer;
+}
+.closeButton {
+    padding: 12px 24px; /* Augmentation de l'espacement intérieur */
+    font-size: 12px; /* Taille de la police */
+    background-color: #004080; /* Bleu foncé */
+    border: none; /* Pas de bordure */
+    color: #fff; /* Texte blanc */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur au survol */
+    transition: background-color 0.3s ease; /* Transition fluide pour le changement de couleur de fond */
+}
+
+.closeButton:hover {
+    background-color: #001f4d; /* Modification de la couleur de fond au survol */
+}

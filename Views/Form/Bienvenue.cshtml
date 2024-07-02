@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Bienvenue chez Sopal";
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/bienvenue.css">
+    <!-- Ajouter des icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="enligne">
+            <img src="https://www.sopal.com/assets/images/logo.png" alt="Sopal">
+        </div>
+    </header>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        <form id="loginForm">
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" value="sopalacces@gmail.com"required><br>
+            <label for="password">Mot de passe :</label><br>
+            <input type="password" id="password" name="password" value="sopal123456"required><br>
+            <button class="submitbtn" type="submit">Se connecter</button>
+        </form>
+        <br>
+        <div id="response"></div>
+        <div class="container2">
+            <p>Choisissez une option :</p>
+            <div class="button-container">
+                <a asp-controller="Form" href="/Form/Create" class="btn"><i class="fas fa-user-plus"></i> Nouveau visiteur</a>
+                <a asp-controller="Form" href="/Form/SearchVisitors" class="btn"><i class="fas fa-user"></i> Tableau de recherche</a>
+                <a asp-controller="Form" href="/Form/History" class="btn"><i class="fas fa-history"></i> Visite en cours</a>
+            </div>
+        </div>
+    </div>
+  <footer>
+    <div class="hdown"><a href="/Form/Bienvenue">PAGE D'ACCEUIL</a></div>
+    <div class="hdown"><a href="/Form/History">VISITE EN COURS</a></div>
+</footer>
+
+    <script src="~/js/script222.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.87);
+    color: rgba(2, 2, 119, 0.87);
+    min-height: 100vh; /* Utilisation de min-height pour que le corps ait au moins la hauteur de la vue */
+    overflow-x: hidden;
+  }
+  
+  .container {
+    margin-top: 120px; /* Assure que la première section commence après le header */
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .container2 {
+    text-align: center;
+    width: 26%;
+    padding: 15px;
+    background-color: rgb(218, 221, 238);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transform: translateX(130%);
+    height: 30vh;
+  
+  }
+  
+  footer {
+    margin-top: auto; /* Colle le footer en bas de la page */
+    background-image: linear-gradient(to bottom right, linen, rgb(128, 178, 240), rgb(122, 141, 233), rgb(105, 105, 105));
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    position: relative; /* Assure que le footer reste en bas même en scrollant */
+  }
+  header {
+    background-image: url('https://example.com/your-background-image.jpg'); /* Ajouter une image de fond */
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  header{
+    background-image:linear-gradient(to bottom right, linen, rgb(128, 178, 240), rgb(122, 141, 233), rgb(105, 105, 105)) ;
+  
+    height: 120px;
+  
+  }
+  .enligne{
+    display: flow-root;
+  
+  }
+  
+  .enligne {
+    display: flex;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  h1 {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: rgba(2, 2, 119, 0.87);
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: rgba(2, 2, 119, 0.87);
+    margin-bottom: 20px;
+  }
+  
+  .button-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background: #1a8ad4;
+    background-image: linear-gradient(to bottom, #1a8ad4, #196696);
+    border-radius: 13px;
+    text-shadow: 3px 2px 3px #2b40a8;
+    box-shadow: 3px 5px 4px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 15px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    transform: translateX(37%);
+    height: 15px;
+  
+  
+  }
+  
+  .btn i {
+    margin-right: 40px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #266d91);
+    text-decoration: none;
+    /* transform: translateY(-5px); */
+  }
+  
+  footer{
+    background-image:linear-gradient(to bottom right, linen, rgb(128, 178, 240), rgb(122, 141, 233), rgb(105, 105, 105));
+    margin: 5px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    
+  }
+  
+  .hdown {
+    text-align: center;
+    height: 15%;
+  }
+  
+  .hdown a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  .submitbtn{
+    background: #1a8ad4;
+    background-image: linear-gradient(to bottom, #1a8ad4, #196696);
+    border-radius: 13px;
+    text-shadow: 3px 2px 3px #2b40a8;
+    box-shadow: 3px 5px 4px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 15px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    transform: translateX(195%);
+    height: 15px;
+  
+  }
+    input[type="email"],
+    input[type="password"] {
+        width: 300px; /* Largeur des champs */
+        padding: 5px; /* Remplissage interne */
+        margin-bottom: 12px; /* Espacement entre les champs */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour effet de profondeur */
+          border-radius: 10px; /* Effet arrondi sur les bordures du tableau */
+  }

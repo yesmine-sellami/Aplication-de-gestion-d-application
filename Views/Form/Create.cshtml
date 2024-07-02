@@ -1,0 +1,65 @@
+@model sopalapp.Models.Visitor
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/sopal.css">
+    <title>Nouveau visiteur</title>
+</head>
+<body>
+    <header>
+        <div class="enligne">
+            <img src="https://www.sopal.com/assets/images/logo.png" alt="Sopal">
+        </div>
+    </header>
+ 
+    <form id="visitorForm" method="post" >
+        <div class="container">
+            <h2 id="title">NOUVEAU VISITEUR</h2>
+            <div>
+                <label for="CIN">CIN:</label>
+                <input class="input" type="text" id="CIN" name="CIN" value="@Model.CIN" required>
+                <div id="CINError" class="error-message"></div>
+            </div>
+
+            <div>
+                <label for="Nom">Nom:</label>
+                <input class="input" type="text" id="Nom" name="Nom" value="@Model.Nom" required>
+                <div id="NomError" class="error-message"></div>
+            </div>
+
+            <div>
+                <label for="Prénom">Prénom:</label>
+                <input class="input" type="text" id="Prénom" name="Prénom" value="@Model.Prénom" required>
+                <div id="PrénomError" class="error-message"></div>
+            </div>
+
+            <div>
+                <label for="Société">Société:</label>
+                <input class="input" type="text" id="Société" name="Société" value="@Model.Société" required>
+                <div id="SociétéError" class="error-message"></div>
+            </div>
+
+            <div>
+                <label for="ButVisite">BUT DE LA VISITE</label>
+                <textarea id="ButVisite" name="ButVisite" placeholder="Le but de la visite est ..." class="text-area-large">@Model.ButVisite</textarea>
+                <div id="ButVisiteError" class="error-message"></div>
+            </div>
+
+            <input type="submit" id="openButton" name="action" value="Bienvenue chez SOPAL" formaction="/Form/Create">
+            <div id="responseControl"></div>
+            <p id="doorStatus"></p>
+        </div>
+    </form>
+
+    <footer>
+        <div class="hdown"><a href="/Form/Bienvenue">PAGE D'ACCEUIL</a></div>
+        <div class="hdown"><a href="/Form/History">VISITE EN COURS</a></div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/script3.js"></script>
+</body>
+</html>
